@@ -16,6 +16,7 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 	color: #EEE;
 	height: 100%;
 	width: 1200px;
+	margin: auto;
 	}
 	.slider{
 	height: 400px;
