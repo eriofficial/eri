@@ -1,0 +1,15 @@
+Week 3 (28th Apr)
+[x]project plan
+[x]wireframe
+[x]storyboard
+
+Week 6 
+[]1 css file
+[]min 3 html file
+
+
+
+
+
+UPLOAD to https://validator.w3.org/ to check html file
+upload to https://http://jigsaw.w3.org/css-validator/validator check css file
