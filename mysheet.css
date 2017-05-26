@@ -21,6 +21,7 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 	.slider{
 	height: 400px;
 	width: 100%;
+	overflow: hidden;
 	}
 	.slider figure div {
 		width:20%;
