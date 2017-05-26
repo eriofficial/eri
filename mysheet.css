@@ -18,6 +18,7 @@ body,.container1, header, nav, .content1, #msg, #upe,footer,.slider , .content2,
 	width: 1200px;
 	margin: auto;
 	}
+/* slideshow styles*/
 	.slider{
 	height: 400px;
 	width: 100%;
@@ -139,6 +140,24 @@ body,.container1, header, nav, .content1, #msg, #upe,footer,.slider , .content2,
 		clear: both;
 		
 	}
+/* unvisited link */
+	a:link {
+    color: red;
+}
+
+/* visited link */
+	a:visited {
+    color: green;
+}
+
+/* mouse over link */
+	a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+	a:active {
+    color: blue;
 	
 	#msg {
 		background-color: #828794;
