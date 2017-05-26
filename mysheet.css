@@ -1,4 +1,4 @@
-body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content2, .content3, .content4{
+body,.container1, header, nav, .content1, #msg, #upe,footer,.slider , .content2, .content3, .content4{
 	 border:0;
 	 margin:0;
 	 padding:0;
@@ -88,6 +88,7 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 			left: -100%;
 		}
 	}
+/* settings for all pages */
 	.container1 {
 		background-color: #dae2f8, #d6a4a4;
 		width: 100%;
@@ -96,9 +97,8 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 		max-height:1280px;
 		
 	}
-	
-	#header {
-		/*background-color: #828794;*/
+	/* styles for the header of all pages*/
+	header {
 		text-align: center;
 		border: 1px solid black;
 		margin: auto auto 10px auto;
@@ -108,8 +108,8 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 		background-image: url('images/2h.jpg');
 		
 	}
-	
-	#nav {
+	/* css for the navigation*/
+	nav {
 		background-color: #828794;
 		padding: 9px;
 		border: 1px solid black;
@@ -120,19 +120,19 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 		text-align: center;
 	}
 	
-	#nav a {
+	nav a {
 		text-decoration: none;
 		color: #EEE;
 		padding:  9px;
 		}
-	#nav li {
+	nav li {
 		list-style-type: none;
 		display: inline-block;
 		text-decoration: none;
 		font-weight: bold;
 		font-size:25px;
 	}
-	
+/* styles for index.html*/
 	.content1 {
 		padding: 8px;
 		width: 100%;
@@ -172,7 +172,7 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 	#upe li{
 		margin: 1px 3px 1px 3px;
 	}
-	
+/* styles for bout me page*/
 	.content2{
 		padding: 8px;
 		margin-left: auto;
@@ -202,6 +202,7 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 		margin: 0 auto;
 		display: block;
 	}
+/* styles for the events page*/
 	.content3{
 		padding: 8px;
 		margin-left: auto;
@@ -242,6 +243,7 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 	#book p{
 		padding: 6px;
 	}
+/* styles for the "contact me" page */
 	.content4 {
 		background-color: #828794;
 		padding: 8px;
@@ -314,8 +316,8 @@ body,.container1, #header, #nav, .content1, #msg, #upe,footer,.slider , .content
 	#social a{
 		text-decoration: none;
 	}
+/* footer styles */
 	footer {
-	  /*background-color: #828794;*/
 		clear: both;
 		text-align: center;
 	}
