@@ -88,7 +88,6 @@ body {
 }
 /* settings for all pages */
 .container1 {
-	background-color: #dae2f8, #d6a4a4;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
@@ -142,7 +141,7 @@ nav li {
 }
 #upe h2 {
 	text-align: left;
-	padding: 2px 6px 2px 6px;
+	padding: 4px 6px 4px 6px;
 	text-decoration: underline;
 	font-family: 'Arvo', serif;
 }
@@ -158,7 +157,7 @@ nav li {
 }
 #msg h2 {
 	text-align: left;
-	padding: 2px 6px 2px 6px;
+	padding: 4px 6px 4px 6px;
 	text-decoration: underline;
 	font-family: 'Arvo', serif;
 }
@@ -275,7 +274,7 @@ nav li {
 	margin-top: 6px;
 }
 #cont h2 {
-	text-align: left-side;
+	text-align: left;
 	text-decoration: underline;
 	font-family: 'Arvo', serif;
 }
@@ -296,7 +295,7 @@ nav li {
 	margin-top: 6px;
 }
 #email h2 {
-	text-align: left-side;
+	text-align: left;
 	text-decoration: underline;
 	font-family: 'Arvo', serif;
 }
@@ -317,7 +316,7 @@ nav li {
 	margin-top: 6px;
 }
 #social h2 {
-	text-align: left-side;
+	text-align: left;
 	text-decoration: underline;
 	font-family: 'Arvo', serif;
 }
