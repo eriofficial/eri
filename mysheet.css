@@ -140,24 +140,22 @@ body,.container1, header, nav, .content1, #msg, #upe,footer,.slider , .content2,
 		clear: both;
 		
 	}
-/* unvisited link */
-	a:link {
-    color: red;
-}
-
-/* visited link */
-	a:visited {
-    color: green;
-}
-
-/* mouse over link */
-	a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-	a:active {
-    color: blue;
+	#upe {
+		background-color: #828794;
+		width: 565px;
+		float: left;
+		border: 1px solid black;
+		max-height: 400px;
+	}
+	#upe h2{
+		text-align: left;
+		padding: 2px 6px 2px 6px;
+		text-decoration: underline;
+		font-family: 'Arvo' , serif;
+	}
+	#upe li{
+		margin: 1px 3px 1px 3px;
+	}
 	
 	#msg {
 		background-color: #828794;
@@ -175,21 +173,14 @@ body,.container1, header, nav, .content1, #msg, #upe,footer,.slider , .content2,
 	#msg li{
 		margin: 1px 3px 1px 3px;
 	}
-	#upe {
-		background-color: #828794;
-		width: 565px;
-		float: left;
-		border: 1px solid black;
-		max-height: 400px;
+	#msg a:link{
+		color:#EEE;
 	}
-	#upe h2{
-		text-align: left;
-		padding: 2px 6px 2px 6px;
-		text-decoration: underline;
-		font-family: 'Arvo' , serif;
+	#msg a:visited{
+		color:#ffcc99;
 	}
-	#upe li{
-		margin: 1px 3px 1px 3px;
+	#msg a:hover{
+		color:#DB7093;
 	}
 /* styles for bout me page*/
 	.content2{
@@ -202,20 +193,28 @@ body,.container1, header, nav, .content1, #msg, #upe,footer,.slider , .content2,
 	#aboutme{
 		background-color: #828794;
 		border: 1px solid black;
-		width: 100%;
+		width: 85%;
 		margin: auto;
 		max-width: 100%;
 		height: auto;
+		overflow: auto;
+
 		
 	}
 	#aboutme p {
-		padding: 10px;
+		padding: 20px;
+		margin: 10px;
 	}
 	#aboutme h2{
 		text-align: center;
 		padding: 2px 6px 2px 6px;
 		text-decoration: underline;
 		font-family: 'Arvo', serif;
+	}
+	#aboutme img{
+		float: left;
+		margin:10px;
+		border: solid black 1px;
 	}
 	#audio audio {
 		margin: 0 auto;
@@ -243,7 +242,14 @@ body,.container1, header, nav, .content1, #msg, #upe,footer,.slider , .content2,
 		padding: 10px; 
 		float: left;
 	}
-	#event1 p{
+	#event1 a:link {
+		color: #EEE;
+	} 
+	#event1 a:visited{
+		color: #ffcc99;
+	}
+	#event1 a:hover{
+		color: #FF69B4;
 	}
 	
 	#book{
@@ -268,6 +274,8 @@ body,.container1, header, nav, .content1, #msg, #upe,footer,.slider , .content2,
 		padding: 8px;
 		margin-left: auto;
 		margin-right: auto;
+		border: solid black 1px;
+		margin-top: 10px;
 	}
 	#cont{
 		background-color: #8e939e;
