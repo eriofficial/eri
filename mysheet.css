@@ -5,11 +5,11 @@ body, .container1, header, nav, .content1, #msg, #upe, footer, .slider, .content
 }
 body {
 	/*background-image: url('images/BlackMarble.jpg');*/
-	background: #d6a4a4; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(#dae2f8, #d6a4a4); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#dae2f8, #d6a4a4); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#dae2f8, #d6a4a4); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#dae2f8, #d6a4a4); /* Standard syntax */
+	background: #d7d2cc; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#304352, #d7d2cc); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#304352, #d7d2cc); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#304352, #d7d2cc); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#304352, #d7d2cc); /* Standard syntax */
 	font-family: 'Vollkorn', serif;
 	color: #EEE;
 	height: 100%;
@@ -105,7 +105,7 @@ header {
 }
 /* css for the navigation*/
 nav {
-	background-color: #828794;
+	background-color: #445563;
 	padding: 9px;
 	border: 1px solid black;
 	width: 100%;
@@ -133,7 +133,7 @@ nav li {
 	clear: both;
 }
 #upe {
-	background-color: #828794;
+	background-color: #445563;
 	width: 565px;
 	float: left;
 	border: 1px solid black;
@@ -149,7 +149,7 @@ nav li {
 	margin: 1px 3px 1px 3px;
 }
 #msg {
-	background-color: #828794;
+	background-color: #445563;
 	width: 565px;
 	float: right;
 	border: 1px solid black;
@@ -181,7 +181,7 @@ nav li {
 	width: auto;
 }
 #aboutme {
-	background-color: #828794;
+	background-color: #445563;
 	border: 1px solid black;
 	width: 85%;
 	margin: auto;
@@ -216,7 +216,7 @@ nav li {
 	width: 100%;
 }
 #event1 {
-	background-color: #828794;
+	background-color: #445563;
 	border: 1px solid black;
 	margin: auto;
 	width: 80%;
@@ -240,7 +240,7 @@ nav li {
 	color: #FF69B4;
 }
 #book {
-	background-color: #828794;
+	background-color: #445563;
 	border: 1px solid black;
 	width: 80%;
 	margin: auto;
@@ -257,7 +257,7 @@ nav li {
 }
 /* styles for the "contact me" page */
 .content4 {
-	background-color: #828794;
+	background-color: #445563;
 	padding: 8px;
 	margin-left: auto;
 	margin-right: auto;
@@ -265,7 +265,7 @@ nav li {
 	margin-top: 10px;
 }
 #cont {
-	background-color: #8e939e;
+	background-color: #828e97;
 	border: 1px solid black;
 	width: auto;
 	margin: auto;
@@ -273,6 +273,7 @@ nav li {
 	overflow: auto;
 	margin-top: 6px;
 }
+/*header styles*/
 #cont h2 {
 	text-align: left;
 	text-decoration: underline;
@@ -286,7 +287,7 @@ nav li {
 	border: 1px solid black;
 }
 #email {
-	background-color: #8e939e;
+	background-color: #828e97;
 	border: 1px solid black;
 	width: auto;
 	margin: auto;
@@ -294,6 +295,7 @@ nav li {
 	overflow: auto;
 	margin-top: 6px;
 }
+/*header styles*/
 #email h2 {
 	text-align: left;
 	text-decoration: underline;
@@ -307,7 +309,7 @@ nav li {
 	border: 1px solid black;
 }
 #social {
-	background-color: #8e939e;
+	background-color: #828e97;
 	border: 1px solid black;
 	width: auto;
 	margin: auto;
@@ -315,6 +317,7 @@ nav li {
 	overflow: auto;
 	margin-top: 6px;
 }
+/*header styles*/
 #social h2 {
 	text-align: left;
 	text-decoration: underline;
@@ -327,6 +330,7 @@ nav li {
 	padding: 2px;
 	border: 1px solid black;
 }
+/*no underlining of links for this page*/
 #social a {
 	text-decoration: none;
 }
@@ -335,9 +339,11 @@ footer {
 	clear: both;
 	text-align: center;
 }
+/* stylying of the links to external websites at bottom of page */
 footer a {
 	text-decoration: none;
-	color: #EEE;
+	color: #efefef;
+	text-shadow: 2px 2px 4px #000000;
 }
 footer li {
 	list-style-type: none;
