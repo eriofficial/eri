@@ -396,14 +396,14 @@ footer li {
 		width:85%;
 		float:none;
 		margin:2% auto;
-		display:block;
+		display:inline-block;
 		text-align: left;
 	}
 	#msg{
 		width:85%;
 		float:none;
 		margin:2% auto;
-		display:block;
+		display:inline-block;
 		text-align: left;
 	}
 	
