@@ -118,6 +118,9 @@ nav a {
 	color: #EEE;
 	padding: 9px;
 }
+nav a:visited {
+	color: #ffcc99;
+}
 nav li {
 	list-style-type: none;
 	display: inline-block;
@@ -369,3 +372,72 @@ footer li {
 .fb {
 	font-weight: bold;
 }
+/* Small screen/tablet styles*/
+@media screen and (max-width:879px), print {
+	article{
+		padding: 2%;
+	}
+	.slider {
+		width:90%;
+		margin-left:2.5%;
+	}
+	section{
+		text-align: center;
+	}
+	article{
+		width: 70%;
+		display: inline-block;
+	}
+	#upe{
+		width:85%;
+		float:none;
+		margin:2% auto;
+		display:block;
+		text-align: left;
+	}
+	#msg{
+		width:85%;
+		float:none;
+		margin:2% auto;
+		display:block;
+		text-align: left;
+	}
+	
+}
+/* Standard screen styles */
+@media screen and (min-width: 880px), print {
+	header{
+		float: none;
+		width: auto;
+	}
+	div.navigation-menu-button{
+		display: none;
+	}
+	.slider {
+		width: 100%;
+	}
+	nav{
+		width: 100%;
+		padding: 0;
+	}
+	section{
+		padding-bottom: 2%;
+		text-align: left;
+	}
+	#upe {
+	background-color: #828794;
+	width: 565px;
+	float: left;
+	border: 1px solid black;
+	max-height: 400px;
+	}
+	#msg {
+	background-color: #828794;
+	width: 565px;
+	float: right;
+	border: 1px solid black;
+	max-height: 400px;
+	}
+}
+/* Large screen/ tablet styles*/
+/* Maximum screen styles*/
