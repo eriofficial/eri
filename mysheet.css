@@ -383,6 +383,7 @@ footer li {
 	.slider {
 		width:90%;
 		margin-left:2.5%;
+		overflow: hidden;
 	}
 	section{
 		text-align: center;
