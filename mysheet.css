@@ -377,6 +377,12 @@ footer li {
 	article{
 		padding: 2%;
 	}
+	nav{
+		display:block;
+		position:relative;
+		z-index:4;
+		height:60px;
+	}
 	header{
 		width: 120%;
 	}
