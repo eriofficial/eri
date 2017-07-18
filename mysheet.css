@@ -373,7 +373,7 @@ footer li {
 	font-weight: bold;
 }
 /* Small screen/tablet styles*/
-@media screen and (min-width:460px), print {
+@media screen and (max-width:460px), print {
 	article{
 		padding: 2%;
 	}
