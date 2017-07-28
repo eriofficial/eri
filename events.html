@@ -18,26 +18,16 @@
 <div class="container1">
   <header>
     <a href="index.html"><img src="images/greylogo.png" alt="E R I"/></a>
-	<nav>
-    <ul>
-      <li> <a href="index.html"> Home </a> </li>
-      <li> <a href="aboutme.html"> About Me </a> </li>
-      <li> <a href=#> Events </a></li>
-      <li> <a href="contact.html" target="_blank"> Contact Me </a></li>
-    </ul>
+	<nav class= "topnav">
+		<a href="contact.html" target="_blank"> Contact Me </a>
+		<a href="events.html"> Events </a>
+		<a href="aboutme.html"> About Me </a> 
+		<a href="index.html"> Home </a>
   </nav>
 </header>
 	<div class="navigation-menu-button">
 		<img src="images/menu.png" width="63" height="57" alt="Show navigation">
 	</div>
-	  <nav class="mobileNav">
-    <ul>
-      <li> <a href="index.html"> Home </a> </li>
-      <li> <a href="aboutme.html"> About Me </a> </li>
-      <li> <a href="events.html"> Events </a></li>
-      <li> <a href="contact.html" target="_blank"> Contact Me </a></li>
-    </ul>
-	</nav>
   <!-- article containing the content of "events.html"-->
   <article class="content3">
     <div id="event1">
@@ -50,9 +40,22 @@
         E R I: <a href="https://erimusic.bandcamp.com/track/sleeping-bag">https://erimusic.bandcamp.com/ </a> </p>
     </div>
     <div id="book">
-      <h1> Make bookings here </h1>
-      <p> !Feature not available yet!</p>
-      <p> Please contact me at my email for booking!</p>
+      <h1> Make booking enquiries here </h1>
+      <form>
+ <fieldset>
+  <legend>Booking Enquiries</legend>
+  <label for="Email">Email:</label>
+	<input type="text" placeholder="someone@something.com" id="Email"><br>
+  <label for="DOB">Date of Booking: </label>
+	<input type=date id="DOB"><br>
+  <label for="Enquiries"> Enquiries:</label>
+	<textarea rows="4" cols="50" id="Enquiries" placeholder="Leave your enquiries here...">
+	</textarea>
+	<br><br>
+	<input type="submit" value="Submit">
+
+ </fieldset>
+</form>
     </div>
     <div id="audio">
       <audio controls id="ac" >
