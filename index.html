@@ -20,17 +20,22 @@
 <div class="container1">
   <header>
     <a href="index.html"><img src="images/greylogo.png" alt="E R I"/></a>
-	<nav class= "topnav">
+	<nav class= "topnav" id="topNav">
+		<a href="javascript:void(0);" style="font-size:15px;" class="navigation-menu-button" onclick='myFunction()'>&#9776;</a>
 		<a href="contact.html" target="_blank"> Contact Me </a>
 		<a href="events.html"> Events </a>
 		<a href="aboutme.html"> About Me </a> 
-		<a href="index.html"> Home </a>
+		<a href="index.html"> Home </a>	
   </nav>
 </header>
-	<div class="navigation-menu-button">
-		<img src="images/menu.png" width="63" height="57" alt="Show navigation">
-	</div>
   <!-- Image Slider div -->
+	<!-- <ul class="rslides">
+		<li><img src="images/1r.jpg" alt=""></li>
+		<li><img src="images/2.jpg" alt="image 2 artwork"></li>
+		<li><img src="images/3rr.jpg" alt="image 3 artwork"></li>
+		<li><img src="images/4r.jpg" alt="image 4 artwork"></li>
+		<li><img src="images/5r.jpg" alt="image 5 artwork"></li>
+	</ul>-->
   <div class="slider">
     <figure>
       <div class= "slide"> <img src="images/1r.jpg" alt="image 1 artwork"> </div>
@@ -40,6 +45,7 @@
       <div class="slide"> <img src="images/5r.jpg" alt="image 5 artwork"> </div>
     </figure>
   </div>
+  <!-- end of image slider-->
   <!-- article containing the content of "index.html"-->
   <article class= "content1">
     <section id="upe">
@@ -75,5 +81,16 @@
     <li> <a class="fb" href="https://www.facebook.com/ERIofficial/" target="_blank"> Facebook </a></li>
   </ul>
 </footer>
+<script>
+function myFunction() {
+    var x = document.getElementById("topNav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</script>
 </body>
 </html>
