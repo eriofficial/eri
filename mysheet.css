@@ -400,6 +400,14 @@ footer li {
 	header img{
 		float: left;
 	}
+	.fadein{
+		height:30%;
+		width: 50%;
+		overflow: hidden;
+		position: relative;
+		z-index: -1;
+		
+	}
 	
 	section{
 		text-align: center;
