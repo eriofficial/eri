@@ -371,7 +371,7 @@ footer li {
 		padding: 2%;
 	}
 	header{
-		width: auto;
+		width: 50vw;
 		height:80px;
 		display:inline-block;
 	}
@@ -406,7 +406,7 @@ footer li {
 		position: relative;
 		z-index: -1;
 		object-fit: fill; /* Do not scale the image */
-		object-position: center; /* Center the image within the element */
+		object-position: left; /* Center the image within the element */
 		
 		
 	}
@@ -415,7 +415,7 @@ footer li {
 		text-align: center;
 	}
 	article.content1{
-		width: 70%;
+		width: 70vw;
 		display: inline-block;
 	}
 	#upe{
@@ -423,7 +423,7 @@ footer li {
 		height: auto;
 		float:none;
 		margin:2% auto;
-		display:inline-block;
+		display:block;
 		text-align: left;
 		position:absolute;
 		font-size: 8px;
@@ -433,7 +433,7 @@ footer li {
 		height: auto;
 		float:none;
 		margin:2% auto;
-		display:inline-block;
+		display:block;
 		text-align: left;
 		position:absolute;
 		font-size: 8px;
