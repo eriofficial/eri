@@ -395,7 +395,7 @@ footer li {
 		float: right;
 	}
 	header{
-		width: 90vw;
+		width: 50vw;
 		height:80px;
 		display:inline-block;
 	}
@@ -423,6 +423,7 @@ footer li {
 	}
 	#upe{
 		width:85vw;
+		height: auto;
 		float:none;
 		margin:2% auto;
 		display:inline-block;
@@ -430,6 +431,7 @@ footer li {
 	}
 	#msg{
 		width:85vw;
+		height: auto;
 		float:none;
 		margin:2% auto;
 		display:inline-block;
