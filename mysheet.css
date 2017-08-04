@@ -397,6 +397,7 @@ footer li {
 	header{
 		width: 90%;
 		height:80px;
+		display:inline-block;
 	}
 	header img{
 		float: left;
@@ -407,6 +408,8 @@ footer li {
 		overflow: hidden;
 		position: relative;
 		z-index: -1;
+		object-fit: none; /* Do not scale the image */
+		object-position: center; /* Center the image within the element */
 		
 		
 	}
