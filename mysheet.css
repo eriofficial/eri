@@ -395,7 +395,7 @@ footer li {
 		float: right;
 	}
 	header{
-		width: 90%;
+		width: 90vw;
 		height:80px;
 		display:inline-block;
 	}
@@ -403,7 +403,7 @@ footer li {
 		float: left;
 	}
 	.fadein{
-		height:40%;
+		height:40vh;
 		width: auto;
 		overflow: hidden;
 		position: relative;
@@ -422,14 +422,14 @@ footer li {
 		display: inline-block;
 	}
 	#upe{
-		width:85%;
+		width:85vw;
 		float:none;
 		margin:2% auto;
 		display:inline-block;
 		text-align: left;
 	}
 	#msg{
-		width:85%;
+		width:85vw;
 		float:none;
 		margin:2% auto;
 		display:inline-block;
