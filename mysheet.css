@@ -78,7 +78,7 @@ position:fixed;
 }
 .topnav img{
 	float: left;
-	display: block;
+	display: inline-block;
 }
 .topnav ul{
 	float: right;
@@ -373,12 +373,9 @@ footer li {
 }
 /* Small screen/tablet styles*/
 @media screen and (max-width:600px){
-	header{
-		width: 50vw;
-		height:80px;
-	}
-	header img{
-		float: left;
+	.topnav img{
+	float: left;
+	display: block;
 	}
 	.topnav a:not(:first-child) {
 		display: none;
@@ -402,8 +399,8 @@ footer li {
 		}
 	}
 	.fadein{
-		height:40vh;
-		width: auto;
+		height:20vh;
+		width: 100vw;
 		overflow: hidden;
 		position: relative;
 		z-index: -1;
@@ -417,7 +414,7 @@ footer li {
 		text-align: center;
 	}
 	article.content1{
-		width: 70vw;
+		width: 100vw;
 		display: inline-block;
 	}
 	#upe{
