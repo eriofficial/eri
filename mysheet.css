@@ -396,7 +396,7 @@ footer li {
     float: none;
     display: block;
     text-align: left;
-		}
+	}
 	}
 	.fadein{
 		height:20vh;
@@ -404,14 +404,8 @@ footer li {
 		overflow: hidden;
 		position: relative;
 		z-index: -1;
-		object-fit: none; /* Do not scale the image */
-		object-position: left; /* Center the image within the element */
 		
 		
-	}
-	
-	section{
-		text-align: center;
 	}
 	article.content1{
 		width: 100vw;
