@@ -395,15 +395,15 @@ footer li {
 		float: right;
 	}
 	header{
-		width: 30%;
+		width: 90%;
 		height:80px;
 	}
 	header img{
 		float: left;
 	}
 	.fadein{
-		height:10%;
-		width: 30%;
+		height:40%;
+		width: 40%;
 		overflow: hidden;
 		position: relative;
 		z-index: -1;
