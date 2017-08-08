@@ -431,7 +431,14 @@ footer li {
 	footer{
 		background-color: #EEE;
 		display:block;
-		overflow:auto;
+		clear: both;
+		position: relative;
+		z-index: 10;
+		height: 3em;
+		margin-top: -3em;
+}
+
+		
 	}
 	footer li{
 		display:block;
