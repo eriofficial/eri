@@ -393,8 +393,6 @@ footer li {
     text-align: left;
 	}
 	.fadein{
-		column-count: 1;
-		column-gap: 20px;
 		height:50vh;
 		width: 80vw;
 		position: relative;
@@ -404,7 +402,7 @@ footer li {
 	}
 	article.content1{
 		width: 100vw;
-		display: inline-block;
+		display:block;
 	}
 	#abe{
 		width:85vw;
