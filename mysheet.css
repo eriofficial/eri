@@ -392,6 +392,7 @@ footer li {
     display: block;
     text-align: left;
 	}
+	}
 	.fadein{
 		height:80vh;
 		width: auto;
@@ -403,27 +404,29 @@ footer li {
 	}
 	article.content1{
 		width: 100vw;
-		display:block;
+		display:table-cell;
 	}
 	#abe{
 		width:90vw;
 		height: 55vh;
 		float:none;
-		display:block;
+		display:inline-block;
 		text-align: left;
 		position:absolute;
 		font-size: 90%;
-		margin-right:0;   
+		margin-right:0; 
+		vertical-align:top;
 	}
 	#msc{
 		width:90vw;
-		height: 55vh;
+		height:55vh;
 		float:none;
 		margin-right: 0;
-		display:block;
+		display:inline-block;
 		text-align: left;
 		position:absolute;
 		font-size: 90%;
+		vertical-align:bottom;
 	}
 	
 	
