@@ -430,6 +430,8 @@ footer li {
 	
 	footer{
 		background-color: #EEE;
+		display:block;
+		overflow:auto;
 	}
 	footer li{
 		display:block;
