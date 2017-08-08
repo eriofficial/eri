@@ -394,7 +394,7 @@ footer li {
 	}
 	.fadein{
 		height:80vh;
-		width: 100vw;
+		width: auto;
 		overflow:hidden;
 		position: relative;
 		z-index: -1;
