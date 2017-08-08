@@ -412,7 +412,6 @@ footer li {
 		float:none;
 		display:inline-block;
 		text-align: left;
-		position:absolute;
 		font-size: 90%;
 		margin-right:0; 
 		vertical-align:top;
@@ -424,7 +423,6 @@ footer li {
 		margin-right: 0;
 		display:inline-block;
 		text-align: left;
-		position:absolute;
 		font-size: 90%;
 		vertical-align:bottom;
 	}
