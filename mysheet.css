@@ -1,4 +1,4 @@
-body, .container1, header, nav, .content1, #msg, #upe, footer, .slider, .content2, .content3, .content4 {
+body, .container1, header, nav, .content1, #msc, #abe, footer, .slider, .content2, .content3, .content4 {
 	border: 0;
 	margin: 0;
 	padding: 0;
@@ -120,7 +120,6 @@ nav li {
 	list-style-type: none;
 	display: inline-block;
 	text-decoration: none;
-	font-weight: bold;
 	font-size: 25px;
 }
 /* styles for index.html*/
@@ -128,45 +127,43 @@ nav li {
 	width: 100%;
 	clear: both;
 }
-#upe {
+#abe {
 	background-color: #828794;
 	width: 565px;
 	float: left;
-	height: 240px;
+	height: 350px;
 }
-#upe h2 {
+#abe h2 {
 	text-align: left;
 	padding: 4px 45px;
 	text-decoration: underline;
 	font-family: 'Arvo', serif;
 }
-#upe li {
-	margin: 1px 3px 1px 3px;
+#abe li {
+	margin: 1px 10px;
 }
-#msg {
+#msc {
 	background-color: #828794;
 	width: 565px;
 	float: right;
-	height: 240px;
+	height: 350px;
 }
-#msg h2 {
+#msc h2 {
 	text-align: left;
 	padding: 4px 45px;
 	text-decoration: underline;
 	font-family: 'Arvo', serif;
 }
-#msg li {
-	margin: 1px 3px 1px 3px;
+#msc li {
+	margin: 1px 10px;
+	padding: 3px auto;
 }
-#msg a:link {
-	color: #EEE;
+#msc img{
+	width:63px;
+	height:63px;
+	border: 1px solid black;
 }
-#msg a:visited {
-	color: #ffcc99;
-}
-#msg a:hover {
-	color: #DB7093;
-}
+
 /* styles for bout me page*/
 .content2 {
 	padding: 8px;
@@ -178,14 +175,14 @@ nav li {
 	background-color: #828794;
 	border: 1px solid black;
 	width: 85%;
-	margin: auto;
+	margin: 80px auto;
 	max-width: 100%;
 	height: auto;
 	overflow: auto;
 }
 #aboutme p {
 	padding: 20px;
-	margin: 10px;
+	margin: 20px;
 }
 #aboutme h2 {
 	text-align: center;
@@ -196,10 +193,8 @@ nav li {
 #aboutme img {
 	float: left;
 	margin: 10px;
-	border: solid black 1px;
 }
 #audio audio {
-	margin: 0 auto;
 	display: block;
 }
 /* styles for the events page*/
@@ -411,7 +406,7 @@ footer li {
 		width: 100vw;
 		display: inline-block;
 	}
-	#upe{
+	#abe{
 		width:85vw;
 		height: auto;
 		float:none;
@@ -419,17 +414,31 @@ footer li {
 		display:block;
 		text-align: left;
 		position:absolute;
-		font-size: 8px;
+		font-size: 90%;
+		margin-right:0;   
 	}
-	#msg{
+	#msc{
 		width:85vw;
 		height: auto;
 		float:none;
 		margin:2% auto;
+		margin-right: 0;
 		display:block;
 		text-align: left;
 		position:absolute;
-		font-size: 8px;
+		font-size: 90%;
+	}
+	
+	
+	footer{
+		background-color: #EEE;
+	}
+	footer li{
+		display:block;
+		list-style-type: none;
+		text-align: center;
+		text-decoration: none;
+		font-weight: bold;
 	}
 	
 }
@@ -439,44 +448,37 @@ footer li {
 		padding-bottom: 2%;
 		text-align: left;
 	}
-	#upe {
+	#abe {
 	background-color: #828794;
 	width: 565px;
 	float: left;
-	max-height: 400px;
+	max-height: 525px;
 	}
-	#upe h2 {
+	#abe h2 {
 	text-align: left;
 	padding: 4px 45px;
 	text-decoration: underline;
 	font-family: 'Arvo', serif;
 	}
-	#upe li {
-		margin: 1px 3px 1px 3px;
+	#abe li {
+		margin: 1px 10px;
 	}
-	#msg {
+	#msc {
 		background-color: #828794;
 		width: 565px;
 		float: right;
-		max-height: 400px;
+		max-height: 525px;
 	}
-	#msg h2 {
+	#msc h2 {
 		text-align: left;
 		padding: 4px 45px;
 		text-decoration: underline;
 		font-family: 'Arvo', serif;
 	}
-	#msg li {
-		margin: 1px 3px 1px 3px;
+	#msc li {
+		margin: 1px 10px;
 	}
-	#msg a:link {
-		color: #EEE;
-	}
-	#msg a:visited {
-		color: #ffcc99;
-	}
-	#msg a:hover {
-
+	
 	.content4 {
 	background-color: #828794;
 	padding: 8px;
