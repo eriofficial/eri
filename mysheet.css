@@ -393,7 +393,7 @@ footer li {
     text-align: left;
 	}
 	}
-	.fadein{
+	/*.fadein{
 		column-count: 1;
 		column-gap: 20px;
 		height:50vh;
@@ -442,7 +442,7 @@ footer li {
 		font-weight: bold;
 	}
 	
-}
+}*/
 /* Standard screen styles */
 @media screen and (min-width: 880px){
 	section{
