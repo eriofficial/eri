@@ -437,6 +437,8 @@ footer li {
 	
 	footer{
 		background-color: #EEE;
+		column-count: 4;
+		column-gap: 20px;
 	}
 	footer li{
 		display:block;
