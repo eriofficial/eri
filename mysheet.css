@@ -408,10 +408,8 @@ footer li {
 		display: inline-block;
 	}
 	#abe{
-		column-count: 2;
-		column-gap: 20px;
 		width:85vw;
-		height: auto;
+		height: 60vh;
 		float:none;
 		margin:2% auto;
 		display:block;
@@ -421,10 +419,8 @@ footer li {
 		margin-right:0;   
 	}
 	#msc{
-		column-count: 3;
-		column-gap: 20px;
 		width:85vw;
-		height: auto;
+		height: 60vh;
 		float:none;
 		margin:2% auto;
 		margin-right: 0;
@@ -437,8 +433,6 @@ footer li {
 	
 	footer{
 		background-color: #EEE;
-		column-count: 4;
-		column-gap: 20px;
 	}
 	footer li{
 		display:block;
