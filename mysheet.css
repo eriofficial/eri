@@ -455,9 +455,9 @@ footer li {
 		height:100%;
 	}
 	.fadein{
-		width:80vw;
+		width:80%;
 		overflow: hidden;
-		height:80vh;
+		height:70vh;
 	}
 	.fadein img{
 		width:100%;
