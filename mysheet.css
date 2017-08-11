@@ -459,6 +459,10 @@ footer li {
 		overflow: hidden;
 		height:60vh;
 	}
+	.fadein img{
+		width:50vw;
+		height:50vh;
+	}
 	#abe{
 		font-size:1rem;
 		height: auto;
