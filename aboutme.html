@@ -8,10 +8,21 @@
 		   Date: 26/05/2017 -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <link rel="stylesheet" href = "mysheet.css"/>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn"/>
 <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"/>
 <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="scripts/responsiveslides.min.js"></script>
+<script>
+	$(function () {
+		$("#slider3").responsiveSlides({
+        manualControls: '#slider3-pager',
+        maxwidth: 540
+      });
+	});
+</script>
 </head>
 <body>
 <!-- Container holding all the elements in -->
@@ -30,15 +41,24 @@
 </header>
   <!-- article containing the content of "aboutme.html"-->
   <article class= "content2">
-    <div id="aboutme">
-      <h2> &#9632; Gallery &#9632;</h2>
-      <figure><img src="images/4.jpg" alt="self potrait" width="300" height="299"></figure>
-      <p>No stranger to the entertainment industry, ERI has been active on the stage and screen before delving into music in 2016. <br>
-        Nurtured with the sounds of hip-hop and jazz from a young age, ERI's style can't be easily classified, jumping between old school Beats, house, Techno, and RnB. Like the melting pot of Southeast Asia, her sound takes inspiration from a variety of cultures. <br>
-        I would say these people are some of my influences in life, to create my music; and they are Sade, Massive Attack, Erykah Badu, Little Dragon, Bats for Lashes, Chi-Lites and Left Eye. <br>
-      </p>
-    </div>
-  </article>
+   <!-- Slideshow 3 -->
+    <ul class="rslides" id="slider3">
+      <li><img src="images/1g.png" alt=""></li>
+      <li><img src="images/3g.png" alt=""></li>
+      <li><img src="images/4g.png" alt=""></li>
+	  <li><img src="images/5g.png" alt=""></li>
+	  <li><img src="images/6g.png" alt=""></li>
+    </ul>
+
+    <!-- Slideshow 3 Pager -->
+    <ul id="slider3-pager">
+      <li><a href="#"><img src="images/1_thumb.png" alt=""></a></li>
+      <li><a href="#"><img src="images/3_thumb.png" alt=""></a></li>
+      <li><a href="#"><img src="images/4_thumb.png" alt=""></a></li>
+	  <li><a href="#"><img src="images/5_thumb.png" alt=""></a></li>
+	  <li><a href="#"><img src="images/6_thumb.png" alt=""></a></li>
+    </ul>
+</article>
 </div>
 <!-- links to external sites at the footer-->
 <footer>
