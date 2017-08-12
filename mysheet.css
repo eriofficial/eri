@@ -165,12 +165,11 @@ nav li {
     text-decoration: none;
     font-size: 25px;
 }
-nav a.active {
-    background-color: #4CAF50;
-    color: white;
+nav li a:hover {
+    background-color: #D3D3D3;
 }
-nav a:visited {
-    color: #808080;
+nav li a:visited {
+    color: #696969;
 }
 /* styles for index.html*/
 
