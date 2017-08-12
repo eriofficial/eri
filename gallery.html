@@ -23,21 +23,39 @@
       });
 	});
 </script>
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
 </head>
 <body>
 <!-- Container holding all the elements in -->
 <div class="container">
-  <nav class= "topnav" id="topNav">
-		<img src="images/greylogo.png" alt="E R I"/></a>
-		<ul>
-		<li><a href="javascript:void(0);" style="font-size:25px;" class="navigation-menu-button" onclick='myFunction()'>&#9776;</a></li>
-		<li><a href="index.html"> Home </a></li>
-		<li><a href="gallery.html"> Gallery</a></li> 	
-		<li><a href="events.html"> Events </a></li>
-		<li><a href="contact.html" target="_blank"> Contact Me </a></li>
+  <nav class="clearfix">
+	
+		<ul class="clearfix">
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="gallery.html"> Gallery </a></li> 	
+			<li><a href="events.html"> Events </a></li>
+			<li><a href="contact.html" target="_blank"> Contact Me </a></li>  
 		</ul>
-		
-</nav>
+		<a href="#" id="pull"><img src="images/greylogo.png" alt="E R I"/></a>
+	</nav>
 </header>
   <!-- article containing the content of "aboutme.html"-->
   <article class= "content2">
