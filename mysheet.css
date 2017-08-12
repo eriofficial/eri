@@ -546,7 +546,7 @@ footer li {
 		height: 200vh;
     }
     .fadein {
-		margin-top:30px;
+		margin-top:40px;
         width: 80%;
         overflow: hidden;
         height: 60vh;
@@ -604,7 +604,7 @@ footer li {
     #event1 {
         width: 80vw;
         z-index: 0;
-		margin-top:40px;
+		margin-top:35px;
     }
     #event1 h1 {
         margin: 0 auto;
