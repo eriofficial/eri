@@ -699,10 +699,11 @@ footer li {
 @media screen and (min-width: 1440px) {
     .container {
         width: 100vw;
-        max-height: 100%
+        max-height: 100%;
+		margin-right:0;
     }
     nav {
-        max-width: 120%;
+        max-width: 110%;
         width: 100%;
         left: 0;
     }
@@ -734,15 +735,15 @@ footer li {
         font-size: 30px;
     }
     .content3 {
-        width: 90%;
         height: 100%;
         max-height: 90vh;
         margin-top: 125px;
     }
     #event1 {
-        width: 80vw;
+        width: 90vw;
         z-index: 0;
         font-size: 20px;
+		margin-left:0;
     }
     #event1 h1 {
         margin: 0 auto;
@@ -751,8 +752,9 @@ footer li {
         padding: 10px;
     }
     #book {
-        width: 80vw;
+        width: 90vw;
         font-size: 20px;
+		margin-left:0;
     }
     #book textarea {
         width: 100%;
