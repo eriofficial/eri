@@ -57,20 +57,9 @@ body {
 	margin: 0 auto;
 	max-height: 1280px;
 }
-/* styles for the header of all pages*/
-/*header {
-	height: 80px;
-	width: 1200px;
-	overflow: hidden;
-	position: fixed;
-	top:0;
-	
+audio::-internal-media-controls-download-button {
+    display:none;
 }
-header img{
-position:fixed;
-}
-*/
-
 .clearfix:before,
 .clearfix:after {
     content: " ";
