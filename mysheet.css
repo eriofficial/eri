@@ -18,14 +18,17 @@ body {
 /* slideshow styles*/
 .fadein{
 	height:640px;
+	display: block;
+	width:50%;
 	overflow: hidden;
+	margin: 0 auto;
 	position: relative;
-	bottom:25px;
 	margin-left: auto;
 	margin-right: auto;
+	bottom:25px;
 	z-index: -1;
 	margin-top:100px;
-	padding: 10px;
+	padding: 10px;*/
 }
 @keyframes fade {
   0%   { opacity: 0; }
@@ -457,7 +460,7 @@ footer li {
 	.fadein{
 		width:80%;
 		overflow: hidden;
-		height:70vh;
+		height:80vh;
 	}
 	.fadein img{
 		width:100%;
