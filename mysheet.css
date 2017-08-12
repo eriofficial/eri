@@ -631,6 +631,7 @@ footer li {
     }
     #event1 h1 {
         margin: 0 auto;
+		margin-bottom:10px
     }
     #event1 figure {
         margin: 0 auto;
@@ -663,6 +664,20 @@ footer li {
     footer li {
         margin: 0 auto;
     }
+}
+
+@media screen and (width:768px){
+	.fadein{
+		width:75vw;
+		height:80vh;
+	}
+	#event1 img{
+		margin-right: 20px;
+	}
+	nav a{
+		width:100%;
+		text-align: center;
+	}
 }
 /* Standard screen styles */
 
