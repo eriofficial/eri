@@ -400,6 +400,22 @@ nav a:visited {
 #social a {
 	text-decoration: none;
 }
+
+/*Styling for results page*/
+#results{s
+	height:100vh;
+	width:80vw;
+	margin: 0 auto;
+	
+}
+#results p{
+	font-size:10rem;
+	border: 5px solid black;
+	text-align: center;
+	color:#696969;
+	margin-top: 18px;
+	
+}
 /* footer styles */
 footer {
 	clear: both;
