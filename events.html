@@ -42,7 +42,7 @@
 			if (x == null || x == "" || y == null || z == null || z == "") {
 				alert("Please make sure all fields are entered.");
 			}else {
-         document.location.href="./result.html"
+				window.open("./result.html");
 			}
 		}
 	</script>
@@ -82,7 +82,7 @@
 			</div>
 			<div id="book">
 				<h1> Make booking enquiries here </h1>
-				<form name="enq" onsubmit="checkEnq()" target="_blank" action="./result.html">
+				<form name="enq" onsubmit="checkEnq()" >
 					<fieldset>
 						<legend>Booking Enquiries</legend>
 						<label for="Email">Email:</label>
