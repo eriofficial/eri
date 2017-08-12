@@ -1,67 +1,74 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>E R I</title>
-<!--Ashley Erianah
+	<title>E R I</title>
+	<!--Ashley Erianah
 		   Filename: index.html
 		   Author: Bryan Chan
 		   Date: 26/052017 -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href = "mysheet.css"/>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn"/>
-<link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"/>
-<link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="mysheet.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn" />
+	<link href="https://fonts.googleapis.com/css?family=Asul" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" />
+	<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
 		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
+			var pull = $('#pull');
+			menu = $('nav ul');
+			menuHeight = menu.height();
 
 			$(pull).on('click', function(e) {
 				e.preventDefault();
 				menu.slideToggle();
 			});
 
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
+			$(window).resize(function() {
+				var w = $(window).width();
+				if (w > 320 && menu.is(':hidden')) {
+					menu.removeAttr('style');
+				}
+			});
 		});
-</script>
+	</script>
 
 </head>
+
 <body>
-<!-- Container holding all the elements in -->
-<div class="container">
-	<nav class="clearfix">
-		<img id="logo" src="images/greylogo.png" alt="E R I"/>
-		<ul class="clearfix">
-			<li><a href="index.html"> Home </a></li>
-			<li><a href="gallery.html"> Gallery </a></li> 	
-			<li><a href="events.html"> Events </a></li>
-			<li><a href="contact.html" target="_blank"> Contact Me </a></li>  
-		</ul>
-		<a href="#" id="pull"><img src="images/greylogo.png" alt="E R I"/></a>
-	</nav>
-<!-- article containing the content of "index.html"-->
-  <article class= "content1">
-	<!-- start of image animation-->
-	<figure class="fadein">
-		<img src="images/1edited.png" alt="image 1 artwork" title="Visit the gallery for more photos"/>
-		<img src="images/3edited.png" alt="image 3 artwork" title="Visit the gallery for more photos"/>
-		<img src="images/4edited.png" alt="image 5 artwork" title="Visit the gallery for more photos"/>
-	</figure>
-	<!-- end of image animation-->
-    <section id="abe">
-      <h2>About me</h2>
-	  <ul>
-        <li>No stranger to the entertainment industry, Ive been active on the stage and screen before delving into music in 2016. 
-        Nurtured with the sounds of hip-hop and jazz from a young age, my style can't be easily classified, jumping between old school Beats, house, Techno, and RnB. <span>Like the melting pot of Southeast Asia, my sounds takes inspiration from a variety of cultures.
+	<!-- Container holding all the elements in -->
+	<div class="container">
+		<nav class="clearfix">
+			<img id="logo" src="images/greylogo.png" alt="E R I" />
+			<ul class="clearfix">
+				<li><a href="index.html"> Home </a>
+				</li>
+				<li><a href="gallery.html"> Gallery </a>
+				</li>
+				<li><a href="events.html"> Events </a>
+				</li>
+				<li><a href="contact.html" target="_blank"> Contact Me </a>
+				</li>
+			</ul>
+			<a href="#" id="pull"><img src="images/greylogo.png" alt="E R I" />
+			</a>
+		</nav>
+		<!-- article containing the content of "index.html"-->
+		<article class="content1">
+			<!-- start of image animation-->
+			<figure class="fadein">
+				<img src="images/1edited.png" alt="image 1 artwork" title="Visit the gallery for more photos" />
+				<img src="images/3edited.png" alt="image 3 artwork" title="Visit the gallery for more photos" />
+				<img src="images/4edited.png" alt="image 5 artwork" title="Visit the gallery for more photos" />
+			</figure>
+			<!-- end of image animation-->
+			<section id="abe">
+				<h2>About me</h2>
+				<ul>
+					<li>No stranger to the entertainment industry, Ive been active on the stage and screen before delving into music in 2016. Nurtured with the sounds of hip-hop and jazz from a young age, my style can't be easily classified, jumping between old school Beats, house, Techno, and RnB. <span>Like the melting pot of Southeast Asia, my sounds takes inspiration from a variety of cultures.
         I would say these people are some of my influences in life, to create my music; and they are Sade, Massive Attack, Erykah Badu, Little Dragon, Bats for Lashes, Chi-Lites and Left Eye.<span></li>
       </ul>
     </section>

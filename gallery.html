@@ -1,101 +1,297 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>E R I</title>
-<!--Ashley Erianah
+	<title>E R I</title>
+	<!--Ashley Erianah
 		   Filename: aboutme.html
 		   Author: Bryan Chan
 		   Date: 26/05/2017 -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<link rel="stylesheet" href = "mysheet.css"/>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn"/>
-<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"/>
-<link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="scripts/responsiveslides.min.js"></script>
-<script>
-	$(function () {
-		$("#slider3").responsiveSlides({
-        manualControls: '#slider3-pager',
-        maxwidth: 540
-      });
-	});
-</script>
-<script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="mysheet.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn" />
+	<link href="https://fonts.googleapis.com/css?family=Asul" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" />
+	<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="scripts/responsiveslides.min.js"></script>
+	<script>
 		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
+			$("#slider3").responsiveSlides({
+				manualControls: '#slider3-pager',
+				maxwidth: 540
+			});
+		});
+	</script>
+	<script>
+		$(function() {
+			var pull = $('#pull');
+			menu = $('nav ul');
+			menuHeight = menu.height();
 
 			$(pull).on('click', function(e) {
 				e.preventDefault();
 				menu.slideToggle();
 			});
 
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
+			$(window).resize(function() {
+				var w = $(window).width();
+				if (w > 320 && menu.is(':hidden')) {
+					menu.removeAttr('style');
+				}
+			});
 		});
-</script>
+	</script>
 </head>
-<body>
-<!-- Container holding all the elements in -->
-<div class="container">
-  <nav class="clearfix">
-		<img id="logo" src="images/greylogo.png" alt="E R I"/>
-		<ul class="clearfix">
-			<li><a href="index.html"> Home </a></li>
-			<li><a href="gallery.html"> Gallery </a></li> 	
-			<li><a href="events.html"> Events </a></li>
-			<li><a href="contact.html" target="_blank"> Contact Me </a></li>  
-		</ul>
-		<a href="#" id="pull"><img src="images/greylogo.png" alt="E R I"/></a>
-	</nav>
-</header>
-  <!-- article containing the content of "aboutme.html"-->
-  <article class= "content2">
-   <!-- Slideshow 3 -->
-    <ul class="rslides" id="slider3">
-      <li><img src="images/1g.png" alt=""></li>
-      <li><img src="images/3g.png" alt=""></li>
-      <li><img src="images/4g.png" alt=""></li>
-	  <li><img src="images/5g.png" alt=""></li>
-	  <li><img src="images/6g.png" alt=""></li>
-    </ul>
 
-    <!-- Slideshow 3 Pager -->
-    <ul id="slider3-pager">
-      <li><a href="#"><img src="images/1_thumb.png" alt=""></a></li>
-      <li><a href="#"><img src="images/3_thumb.png" alt=""></a></li>
-      <li><a href="#"><img src="images/4_thumb.png" alt=""></a></li>
-	  <li><a href="#"><img src="images/5_thumb.png" alt=""></a></li>
-	  <li><a href="#"><img src="images/6_thumb.png" alt=""></a></li>
-    </ul>
-</article>
-</div>
-<!-- links to external sites at the footer-->
-<footer>
-  <ul>
-    <li> <a class="ig" href="https://www.instagram.com/ashleyerianah" target="_blank"> Instagram </a> </li>
-    <li> <a class="sc" href="https://soundcloud.com/ashleyerianah" target="_blank"> Soundcloud </a></li>
-    <li> <a class="sp" href="https://open.spotify.com/artist/1idqdkGIv7efKr8KuzsSFH" target="_blank"> Spotify </a> </li>
-    <li> <a class="bc" href="https://erimusic.bandcamp.com" target="_blank"> BandCamp </a> </li>
-    <li> <a class="fb" href="https://www.facebook.com/ERIofficial/" target="_blank"> Facebook </a></li>
-  </ul>
-</footer>
-<script>/*! http://responsiveslides.com v1.55 by @viljamis */
-(function(c,K,C){c.fn.responsiveSlides=function(m){var a=c.extend({auto:!0,speed:500,timeout:4E3,pager:!1,nav:!1,random:!1,pause:!1,pauseControls:!0,prevText:"Previous",nextText:"Next",maxwidth:"",navContainer:"",manualControls:"",namespace:"rslides",before:c.noop,after:c.noop},m);return this.each(function(){C++;var f=c(this),u,t,v,n,q,r,p=0,e=f.children(),D=e.length,h=parseFloat(a.speed),E=parseFloat(a.timeout),w=parseFloat(a.maxwidth),g=a.namespace,d=g+C,F=g+"_nav "+d+"_nav",x=g+"_here",k=d+"_on",
-y=d+"_s",l=c("<ul class='"+g+"_tabs "+d+"_tabs' />"),z={"float":"left",position:"relative",opacity:1,zIndex:2},A={"float":"none",position:"absolute",opacity:0,zIndex:1},G=function(){var b=(document.body||document.documentElement).style,a="transition";if("string"===typeof b[a])return!0;u=["Moz","Webkit","Khtml","O","ms"];var a=a.charAt(0).toUpperCase()+a.substr(1),c;for(c=0;c<u.length;c++)if("string"===typeof b[u[c]+a])return!0;return!1}(),B=function(b){a.before(b);G?(e.removeClass(k).css(A).eq(b).addClass(k).css(z),
-p=b,setTimeout(function(){a.after(b)},h)):e.stop().fadeOut(h,function(){c(this).removeClass(k).css(A).css("opacity",1)}).eq(b).fadeIn(h,function(){c(this).addClass(k).css(z);a.after(b);p=b})};a.random&&(e.sort(function(){return Math.round(Math.random())-.5}),f.empty().append(e));e.each(function(a){this.id=y+a});f.addClass(g+" "+d);m&&m.maxwidth&&f.css("max-width",w);e.hide().css(A).eq(0).addClass(k).css(z).show();G&&e.show().css({"-webkit-transition":"opacity "+h+"ms ease-in-out","-moz-transition":"opacity "+
-h+"ms ease-in-out","-o-transition":"opacity "+h+"ms ease-in-out",transition:"opacity "+h+"ms ease-in-out"});if(1<e.length){if(E<h+100)return;if(a.pager&&!a.manualControls){var H=[];e.each(function(a){a+=1;H+="<li><a href='#' class='"+y+a+"'>"+a+"</a></li>"});l.append(H);m.navContainer?c(a.navContainer).append(l):f.after(l)}a.manualControls&&(l=c(a.manualControls),l.addClass(g+"_tabs "+d+"_tabs"));(a.pager||a.manualControls)&&l.find("li").each(function(a){c(this).addClass(y+(a+1))});if(a.pager||a.manualControls)r=
-l.find("a"),t=function(a){r.closest("li").removeClass(x).eq(a).addClass(x)};a.auto&&(v=function(){q=setInterval(function(){e.stop(!0,!0);var b=p+1<D?p+1:0;(a.pager||a.manualControls)&&t(b);B(b)},E)},v());n=function(){a.auto&&(clearInterval(q),v())};a.pause&&f.hover(function(){clearInterval(q)},function(){n()});if(a.pager||a.manualControls)r.bind("click",function(b){b.preventDefault();a.pauseControls||n();b=r.index(this);p===b||c("."+k).queue("fx").length||(t(b),B(b))}).eq(0).closest("li").addClass(x),
-a.pauseControls&&r.hover(function(){clearInterval(q)},function(){n()});if(a.nav){g="<a href='#' class='"+F+" prev'>"+a.prevText+"</a><a href='#' class='"+F+" next'>"+a.nextText+"</a>";m.navContainer?c(a.navContainer).append(g):f.after(g);var d=c("."+d+"_nav"),I=d.filter(".prev");d.bind("click",function(b){b.preventDefault();b=c("."+k);if(!b.queue("fx").length){var d=e.index(b);b=d-1;d=d+1<D?p+1:0;B(c(this)[0]===I[0]?b:d);(a.pager||a.manualControls)&&t(c(this)[0]===I[0]?b:d);a.pauseControls||n()}});
-a.pauseControls&&d.hover(function(){clearInterval(q)},function(){n()})}}if("undefined"===typeof document.body.style.maxWidth&&m.maxwidth){var J=function(){f.css("width","100%");f.width()>w&&f.css("width",w)};J();c(K).bind("resize",function(){J()})}})}})(jQuery,this,0);
-</script>
+<body>
+	<!-- Container holding all the elements in -->
+	<div class="container">
+		<nav class="clearfix">
+			<img id="logo" src="images/greylogo.png" alt="E R I" />
+			<ul class="clearfix">
+				<li><a href="index.html"> Home </a>
+				</li>
+				<li><a href="gallery.html"> Gallery </a>
+				</li>
+				<li><a href="events.html"> Events </a>
+				</li>
+				<li><a href="contact.html" target="_blank"> Contact Me </a>
+				</li>
+			</ul>
+			<a href="#" id="pull"><img src="images/greylogo.png" alt="E R I" />
+			</a>
+		</nav>
+		</header>
+		<!-- article containing the content of "aboutme.html"-->
+		<article class="content2">
+			<!-- Slideshow 3 -->
+			<ul class="rslides" id="slider3">
+				<li><img src="images/1g.png" alt="">
+				</li>
+				<li><img src="images/3g.png" alt="">
+				</li>
+				<li><img src="images/4g.png" alt="">
+				</li>
+				<li><img src="images/5g.png" alt="">
+				</li>
+				<li><img src="images/6g.png" alt="">
+				</li>
+			</ul>
+
+			<!-- Slideshow 3 Pager -->
+			<ul id="slider3-pager">
+				<li>
+					<a href="#"><img src="images/1_thumb.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/3_thumb.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/4_thumb.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/5_thumb.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#"><img src="images/6_thumb.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</article>
+	</div>
+	<!-- links to external sites at the footer-->
+	<footer>
+		<ul>
+			<li> <a class="ig" href="https://www.instagram.com/ashleyerianah" target="_blank"> Instagram </a> </li>
+			<li> <a class="sc" href="https://soundcloud.com/ashleyerianah" target="_blank"> Soundcloud </a>
+			</li>
+			<li> <a class="sp" href="https://open.spotify.com/artist/1idqdkGIv7efKr8KuzsSFH" target="_blank"> Spotify </a> </li>
+			<li> <a class="bc" href="https://erimusic.bandcamp.com" target="_blank"> BandCamp </a> </li>
+			<li> <a class="fb" href="https://www.facebook.com/ERIofficial/" target="_blank"> Facebook </a>
+			</li>
+		</ul>
+	</footer>
+	<script>
+		/*! http://responsiveslides.com v1.55 by @viljamis */
+		(function(c, K, C) {
+			c.fn.responsiveSlides = function(m) {
+				var a = c.extend({
+					auto: !0,
+					speed: 500,
+					timeout: 4E3,
+					pager: !1,
+					nav: !1,
+					random: !1,
+					pause: !1,
+					pauseControls: !0,
+					prevText: "Previous",
+					nextText: "Next",
+					maxwidth: "",
+					navContainer: "",
+					manualControls: "",
+					namespace: "rslides",
+					before: c.noop,
+					after: c.noop
+				}, m);
+				return this.each(function() {
+					C++;
+					var f = c(this),
+						u, t, v, n, q, r, p = 0,
+						e = f.children(),
+						D = e.length,
+						h = parseFloat(a.speed),
+						E = parseFloat(a.timeout),
+						w = parseFloat(a.maxwidth),
+						g = a.namespace,
+						d = g + C,
+						F = g + "_nav " + d + "_nav",
+						x = g + "_here",
+						k = d + "_on",
+						y = d + "_s",
+						l = c("<ul class='" + g + "_tabs " + d + "_tabs' />"),
+						z = {
+							"float": "left",
+							position: "relative",
+							opacity: 1,
+							zIndex: 2
+						},
+						A = {
+							"float": "none",
+							position: "absolute",
+							opacity: 0,
+							zIndex: 1
+						},
+						G = function() {
+							var b = (document.body || document.documentElement).style,
+								a = "transition";
+							if ("string" === typeof b[a]) return !0;
+							u = ["Moz", "Webkit", "Khtml", "O", "ms"];
+							var a = a.charAt(0).toUpperCase() + a.substr(1),
+								c;
+							for (c = 0; c < u.length; c++)
+								if ("string" === typeof b[u[c] + a]) return !0;
+							return !1
+						}(),
+						B = function(b) {
+							a.before(b);
+							G ? (e.removeClass(k).css(A).eq(b).addClass(k).css(z),
+								p = b, setTimeout(function() {
+									a.after(b)
+								}, h)) : e.stop().fadeOut(h, function() {
+								c(this).removeClass(k).css(A).css("opacity", 1)
+							}).eq(b).fadeIn(h, function() {
+								c(this).addClass(k).css(z);
+								a.after(b);
+								p = b
+							})
+						};
+					a.random && (e.sort(function() {
+						return Math.round(Math.random()) - .5
+					}), f.empty().append(e));
+					e.each(function(a) {
+						this.id = y + a
+					});
+					f.addClass(g + " " + d);
+					m && m.maxwidth && f.css("max-width", w);
+					e.hide().css(A).eq(0).addClass(k).css(z).show();
+					G && e.show().css({
+						"-webkit-transition": "opacity " + h + "ms ease-in-out",
+						"-moz-transition": "opacity " +
+							h + "ms ease-in-out",
+						"-o-transition": "opacity " + h + "ms ease-in-out",
+						transition: "opacity " + h + "ms ease-in-out"
+					});
+					if (1 < e.length) {
+						if (E < h + 100) return;
+						if (a.pager && !a.manualControls) {
+							var H = [];
+							e.each(function(a) {
+								a += 1;
+								H += "<li><a href='#' class='" + y + a + "'>" + a + "</a></li>"
+							});
+							l.append(H);
+							m.navContainer ? c(a.navContainer).append(l) : f.after(l)
+						}
+						a.manualControls && (l = c(a.manualControls), l.addClass(g + "_tabs " + d + "_tabs"));
+						(a.pager || a.manualControls) && l.find("li").each(function(a) {
+							c(this).addClass(y + (a + 1))
+						});
+						if (a.pager || a.manualControls) r =
+							l.find("a"), t = function(a) {
+								r.closest("li").removeClass(x).eq(a).addClass(x)
+							};
+						a.auto && (v = function() {
+							q = setInterval(function() {
+								e.stop(!0, !0);
+								var b = p + 1 < D ? p + 1 : 0;
+								(a.pager || a.manualControls) && t(b);
+								B(b)
+							}, E)
+						}, v());
+						n = function() {
+							a.auto && (clearInterval(q), v())
+						};
+						a.pause && f.hover(function() {
+							clearInterval(q)
+						}, function() {
+							n()
+						});
+						if (a.pager || a.manualControls) r.bind("click", function(b) {
+								b.preventDefault();
+								a.pauseControls || n();
+								b = r.index(this);
+								p === b || c("." + k).queue("fx").length || (t(b), B(b))
+							}).eq(0).closest("li").addClass(x),
+							a.pauseControls && r.hover(function() {
+								clearInterval(q)
+							}, function() {
+								n()
+							});
+						if (a.nav) {
+							g = "<a href='#' class='" + F + " prev'>" + a.prevText + "</a><a href='#' class='" + F + " next'>" + a.nextText + "</a>";
+							m.navContainer ? c(a.navContainer).append(g) : f.after(g);
+							var d = c("." + d + "_nav"),
+								I = d.filter(".prev");
+							d.bind("click", function(b) {
+								b.preventDefault();
+								b = c("." + k);
+								if (!b.queue("fx").length) {
+									var d = e.index(b);
+									b = d - 1;
+									d = d + 1 < D ? p + 1 : 0;
+									B(c(this)[0] === I[0] ? b : d);
+									(a.pager || a.manualControls) && t(c(this)[0] === I[0] ? b : d);
+									a.pauseControls || n()
+								}
+							});
+							a.pauseControls && d.hover(function() {
+								clearInterval(q)
+							}, function() {
+								n()
+							})
+						}
+					}
+					if ("undefined" === typeof document.body.style.maxWidth && m.maxwidth) {
+						var J = function() {
+							f.css("width", "100%");
+							f.width() > w && f.css("width", w)
+						};
+						J();
+						c(K).bind("resize", function() {
+							J()
+						})
+					}
+				})
+			}
+		})(jQuery, this, 0);
+	</script>
 </body>
+
 </html>
