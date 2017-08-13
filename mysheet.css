@@ -676,6 +676,13 @@ footer li {
 		text-align: center;
 	}
 }
+
+/* for adjusting of image so that text becomes clear to read*/
+@media screen and (max-width:767px) and (min-width:426px){
+	#event1 figure{
+		padding-right:23px;
+	}
+}
 /* Standard screen styles */
 
 @media screen and (min-width: 880px) {
