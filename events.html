@@ -39,12 +39,12 @@
 			var x = document.forms["enq"]["email"].value;
 			var y = document.forms["enq"]["dB"].value;
 			var z = document.forms["enq"]["textF"].value;
-			if (x == null || x == "" || y == null || z == null || z == "") {
+			if ((x == null || x == "" || y == null || z == null || z == "")) {
 				alert("Please make sure all fields are entered.");
-			}else {
+			} else {
 				window.open("./result.html");
-			}
-		}
+	}
+}
 	</script>
 </head>
 
