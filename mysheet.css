@@ -106,9 +106,6 @@ audio::-internal-media-controls-download-button {
 .clearfix:after {
     clear: both;
 }
-.clearfix {
-    *zoom: 1;
-}
 nav {
     height: auto;
     width: 100%;
@@ -212,7 +209,8 @@ nav li a:visited {
 }
 #msc li {
     margin: 1px 10px;
-    padding: 3px auto;
+    padding-left: 3px;
+	padding-right:3px;
 }
 #msc img {
     width: 63px;
@@ -257,7 +255,7 @@ nav li a:visited {
 }
 #slider3-pager .rslides_here a {
     background: transparent;
-    box-shadow: 0;
+	box-shadow: 0 3px 3px #FFD1DC;
 }
 #slider3-pager a {
     padding: 0;
@@ -375,7 +373,7 @@ nav li a:visited {
     text-align: left;
     padding-left: 20px;
     text-decoration: underline;
-    font-family: 'Arvo', serif;
+    font-family: 'Asul', serif;
 }
 #cont p {
     background-color: #EEE;
@@ -396,7 +394,7 @@ nav li a:visited {
     text-align: left;
     padding-left: 20px;
     text-decoration: underline;
-    font-family: 'Arvo', serif;
+    font-family: 'Asul', serif;
 }
 #email p {
     background-color: #EEE;
@@ -417,7 +415,7 @@ nav li a:visited {
     text-align: left;
     padding-left: 20px;
     text-decoration: underline;
-    font-family: 'Arvo', serif;
+    font-family: 'Asul', serif;
 }
 #social p {
     background-color: #EEE;
@@ -685,6 +683,22 @@ footer li {
         padding-bottom: 2%;
         text-align: left;
     }
+	audio{
+		width:90%;
+	}
+	audio#contA{
+		width:50%;
+	}
+	.content3{
+		margin-top:80px;
+		
+	}
+	#book{
+		box-shadow: 0 5px 5px #696969;
+	}
+	#event1{
+		box-shadow: 0 0 5px #696969;
+	}
     .content4 {
         width: 90vw;
     }
@@ -744,6 +758,7 @@ footer li {
         z-index: 0;
         font-size: 20px;
 		margin-left:0;
+		
     }
     #event1 h1 {
         margin: 0 auto;
